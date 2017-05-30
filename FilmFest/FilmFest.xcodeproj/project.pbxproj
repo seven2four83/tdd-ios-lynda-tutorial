@@ -13,6 +13,7 @@
 		1D8E34B31EDD91B800E5C43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E34B21EDD91B800E5C43B /* Assets.xcassets */; };
 		1D8E34B61EDD91B800E5C43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E34B41EDD91B800E5C43B /* LaunchScreen.storyboard */; };
 		1D8E34C11EDD91B800E5C43B /* FilmFestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E34C01EDD91B800E5C43B /* FilmFestTests.swift */; };
+		1DE8700A1EDD9B7E00435A26 /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE870091EDD9B7E00435A26 /* DropShadowView.swift */; };
 		490D25913E8BD20A2858999B /* Pods_FilmFestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4184E7353BE5EDF5586E787 /* Pods_FilmFestTests.framework */; };
 		964B266D0224BA35254B0684 /* Pods_FilmFest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF8F466A18B156A7353A758 /* Pods_FilmFest.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		1D8E34BC1EDD91B800E5C43B /* FilmFestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmFestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8E34C01EDD91B800E5C43B /* FilmFestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmFestTests.swift; sourceTree = "<group>"; };
 		1D8E34C21EDD91B800E5C43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE870091EDD9B7E00435A26 /* DropShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
 		2CED76D41C47E434FE2C8FF5 /* Pods-FilmFestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmFestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilmFestTests/Pods-FilmFestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0C36E58AABBEF7525955187 /* Pods-FilmFestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmFestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilmFestTests/Pods-FilmFestTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8375EDEB1DC75221154D244 /* Pods-FilmFest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmFest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilmFest/Pods-FilmFest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				1D8E34AB1EDD91B700E5C43B /* AppDelegate.swift */,
 				1D8E34AD1EDD91B700E5C43B /* ViewController.swift */,
 				1D8E34AF1EDD91B700E5C43B /* Main.storyboard */,
+				1DE870091EDD9B7E00435A26 /* DropShadowView.swift */,
 				1D8E34B21EDD91B800E5C43B /* Assets.xcassets */,
 				1D8E34B41EDD91B800E5C43B /* LaunchScreen.storyboard */,
 				1D8E34B71EDD91B800E5C43B /* Info.plist */,
@@ -184,10 +187,12 @@
 				TargetAttributes = {
 					1D8E34A71EDD91B700E5C43B = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					1D8E34BB1EDD91B800E5C43B = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1D8E34A71EDD91B700E5C43B;
 					};
@@ -330,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE8700A1EDD9B7E00435A26 /* DropShadowView.swift in Sources */,
 				1D8E34AE1EDD91B700E5C43B /* ViewController.swift in Sources */,
 				1D8E34AC1EDD91B700E5C43B /* AppDelegate.swift in Sources */,
 			);
@@ -541,6 +547,7 @@
 				1D8E34C71EDD91B800E5C43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D8E34C81EDD91B800E5C43B /* Build configuration list for PBXNativeTarget "FilmFestTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +556,7 @@
 				1D8E34CA1EDD91B800E5C43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
